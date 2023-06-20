@@ -48,7 +48,7 @@
     }
     
     .conWrap{
-        padding: 64px 20px 40px;
+        padding: 0px 20px 40px;
     }
 
     .conFlex{
@@ -100,7 +100,7 @@
 
     .imgFlex{
         border-radius: 0;
-        height: 300px;
+        height: auto;
     }
 
     .imgCon{

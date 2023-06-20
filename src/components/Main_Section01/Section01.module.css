@@ -100,7 +100,7 @@
 
     .imgFlex{
         border-radius: 0;
-        height: 200px;
+        height: auto;
     }
 
     .imgCon{

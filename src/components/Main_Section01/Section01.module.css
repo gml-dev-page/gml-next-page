@@ -1,0 +1,137 @@
+.Wrap{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conWrap{
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+}
+
+.titleWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 130px 40px 80px;
+    max-width: 1280px;
+    margin: 0px auto;
+
+}
+.title{
+    font-size: 72px;
+    line-height: 98px;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    white-space: pre-line;
+    font-family: 'GmarketSansBold';
+}
+
+.des{
+    margin-top: 30px;
+    font-family: 'AppleSDNeo-M';
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    white-space: pre-line;
+    color: rgb(34, 34, 34);
+    font-weight: 300;
+}
+
+.imgWrap{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.imgFlex{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+
+.imgBox{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+.imgCon{
+    width: 100%;
+    
+}
+
+.imgCon img{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    transform: translateY(-20%);
+}
+
+
+@media (max-width: 600px) {
+    .titleWrap{
+        padding: 64px 20px 40px;
+    }
+
+    .title{
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .des{
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .imgFlex{
+        border-radius: 0;
+        height: 200px;
+    }
+
+    .imgCon{
+        width: 100%;
+        
+        
+    }
+
+}
+
+@media (min-width:601px) and (max-width: 1024px) {
+    .titleWrap{
+        padding: 90px 40px 80px;
+    }
+
+    .title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .des{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .imgFlex{
+        height: auto;
+    }
+
+
+    
+
+} 
+

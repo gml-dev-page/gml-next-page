@@ -1,0 +1,142 @@
+.wrap{
+    margin: 60px auto 100px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+}
+
+.conWrap{
+    max-width: 1280px;
+    margin: auto;
+    padding: 130px 40px 130px;
+}
+
+.conFlex{
+    display: flex;
+    align-items: inherit;
+    justify-content: space-between;
+}
+
+.conTitle{
+    width: 48%;
+}
+
+.conTitle h1{
+    font-size: 50px;
+    line-height: 65px;
+    font-family: 'GmarketSansBold';
+}
+
+.conDes{
+    width: 39%;
+}
+
+.conDes p{
+    font-family: 'AppleSDNeo-M';
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    white-space: pre-line;
+    color: rgb(34, 34, 34);
+    font-weight: 300;
+}
+
+@media (max-width: 600px) {
+    .wrap{
+        margin: 0px auto 30px;
+    }
+    
+    .conWrap{
+        padding: 64px 20px 40px;
+    }
+
+    .conFlex{
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+    }    
+
+    .conTitle{
+        width: 100%;
+    }
+
+    .conTitle h1{
+        font-size: 24px;
+        line-height: 30px;
+        text-align: right;
+    }
+
+    .conDes{
+        width: 100%;
+        margin: 20px auto;
+        text-align: right;
+    }
+
+    .conDes p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+
+
+
+
+    .titleWrap{
+        padding: 64px 20px 40px;
+    }
+
+    .title{
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .des{
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .imgFlex{
+        border-radius: 0;
+        height: 300px;
+    }
+
+    .imgCon{
+        width: 500px;
+        height: 300px;
+        
+    }
+
+}
+
+
+@media (min-width:601px) and (max-width: 1024px) {
+    .wrap{
+        margin: 0px auto 55px;
+    }
+
+    .conWrap{
+        padding: 0px 40px 50px;
+    }
+
+    .conTitle h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .conDes{
+        width: 49%;
+    }
+
+    .conDes p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+
+} 
+
+
+

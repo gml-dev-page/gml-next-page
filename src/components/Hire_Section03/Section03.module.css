@@ -1,0 +1,77 @@
+.wrap{
+    padding: 100px;
+}
+.inner{
+    max-width: 1420px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.titleWrap h1{
+    margin-bottom: 28px;
+    font-family: 'GmarketSansBold';
+}
+
+.titleWrap p{
+    font-family: 'AppleSDNeo-M';
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+}
+
+.button{
+    text-decoration: none;
+    display: block;
+    width: 240px;
+    height: 75px;
+    background: #000;
+    border-radius: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 77px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin: 55px auto;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    transition: all 0.5s ease 0s;
+    font-family: 'GmarketSansBold';
+}
+.button:hover{
+    color: #2b9cd8;
+  }
+  
+
+@media (max-width: 600px) {
+    .wrap{
+        padding: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .inner{
+        padding-bottom: 30px;
+    }
+
+    .titleWrap h1{
+        font-size: 20px;
+    }
+
+    .titleWrap p{
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+
+    .button{
+        width: 215px;
+        height: 55px;
+        font-size: 17px;
+        line-height: 57px;
+    }
+
+}

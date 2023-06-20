@@ -1,0 +1,107 @@
+.wrap{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 750px;
+    text-align: right;
+    padding: 150px 0;
+    position: relative;
+    margin-top: 150px;
+    
+}
+.wrap::after{
+    content: '';
+    display: block;
+    background: rgba(0,0,0,.35);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
+}
+
+.titleWrap h1{
+    font-size: 50px;
+    /* font-family: 'GmarketSansBold'; */
+    color: white;
+    z-index: 9;
+    position: relative;
+}
+
+.titleWrap strong{
+    font-family: 'GmarketSansBold';
+}
+
+.desWrap{
+    margin-top: 50px;
+}
+
+.desWrap span{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    z-index: 9;
+    font-family: 'AppleSDNeo-M';
+}
+
+@media (max-width: 600px) {
+    .wrap{
+        height: 500px;
+        padding: 0;
+    }
+
+    .inner{
+        padding-top: 120px;
+        padding-right: 20px;
+    }
+
+    .titleWrap h1{
+        font-size: 24px;
+    }
+
+    .desWrap{
+        margin-top: 25px;
+    }
+
+    .desWrap span{
+        font-size: 14px;
+    }    
+
+}
+
+@media (min-width:601px) and (max-width: 1024px) {
+    .wrap{
+        padding: 150px 30px;
+
+    }
+
+    .titleWrap h1{
+        font-size: 35px;
+    }
+
+    .desWrap{
+        margin-top: 20px;
+    }
+
+    .desWrap span{
+        font-size: 18px;
+    }
+
+    .button{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 53px;
+        margin: 40px 0;
+    }
+
+
+} 

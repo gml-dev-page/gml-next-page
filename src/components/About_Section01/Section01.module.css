@@ -1,0 +1,212 @@
+.videoWrap{
+    position: relative;
+}
+
+.video{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.titleWrap{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 1280px;
+}
+
+.titleWrap h1{
+    font-size: 65px;
+    color: white;
+    line-height: 80px;
+    letter-spacing: -0.01em;
+    white-space: pre-line;
+    margin-bottom: 30px;
+    font-family: 'GmarketSansBold';
+}
+
+.titleWrap span{
+    font-family: 'AppleSDNeo-M';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    white-space: pre-line;
+    color: rgb(255, 255, 255);
+}
+
+.cardWrap{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    position: relative;
+    margin-top: -280px;
+    z-index: 10;
+}
+
+.cardInner{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    align-items: center;
+}
+
+.cardBox{
+    display: flex;
+    animation: 50s linear 0s infinite loopAnimation1;
+}
+
+@keyframes loopAnimation1 {
+	0% {
+		transform: translateX(0);
+	}
+    100% {
+		transform: translateX(-50%);
+	}
+
+}
+
+
+
+.card{
+    width: 316px;
+    height: 380px;
+    background: white;
+    box-shadow: rgba(0,0,0,0.08) 0px 20px 80px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 24px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding: 40px 32px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.card .des{
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.01em;
+    margin-bottom: auto;
+    font-family: 'AppleSDNeo-M';
+    
+}
+
+.card .nameWrap{
+    display: flex;
+    width: 100%;
+}
+
+.card .nameBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-right: auto;
+}
+
+
+.card .nameBox span{
+    font-family: 'AppleSDNeo-M';
+    font-weight: 500;
+
+}
+
+.card .nameBox strong{
+    font-family: 'AppleSDNeo-M';
+
+}
+
+.card .nameBox .name{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.card .nameBox .position{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card .iconBox{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* background-color: rgba(186, 186, 186,0.6); */
+    
+}
+
+.card .iconBox img{
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .video{
+        width: auto;
+    }
+    
+    .titleWrap{
+        top: 35%;
+        left: 55%;
+    }
+
+    .titleWrap h1{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .titleWrap span{
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .card{
+        width: 220px;
+        height: 260px;
+        padding: 16px;
+    }
+
+    .card .des{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card .nameBox .name{
+    font-size: 14px;
+    line-height: 25px;
+    }
+
+    .card .nameBox .position{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    
+
+    .card .iconBox{
+        width: 53px;
+        height: 53px;
+    }
+}
+
+@media (min-width:601px) and (max-width: 1024px) {
+    .video{
+        width: auto;
+        height: 800px;
+    }
+    .titleWrap{
+        padding: 30px;
+    }
+    .titleWrap h1{
+        font-size: 40px;
+        line-height: 55px;
+        margin-bottom: 15px;
+    }
+    
+}

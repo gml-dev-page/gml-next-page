@@ -1,0 +1,97 @@
+.inner{
+    max-width: 1420px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    width: 80%;
+    padding: 130px 0 180px;
+
+}
+
+.inner .line{
+    position: absolute;
+    left: 0;
+    top: -63px;
+    display: block;
+    width: 1px;
+    height: 126px;
+    background: #fff;
+}
+
+.line::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    height: 50%;
+    background: #000;
+}
+
+.inner strong{
+    letter-spacing: 0.01em;
+    font-size: 50px;
+    width: 50%;
+    font-family: 'GmarketSansBold';
+}
+
+.inner .des{
+    width: 50%;
+}
+
+.des p {
+    font-family: 'AppleSDNeo-M';
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+}
+
+@media (max-width: 600px) {
+    .inner{
+        width: 90%;
+        padding: 50px 0 60px;
+        flex-flow: column;
+    }
+
+    .inner .line{
+        height: 55px;
+        top: -27.5px;
+    }
+    
+
+    
+
+
+    .inner strong{
+        font-size: 26px;
+    }
+    .inner .des{
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .des p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+
+@media (min-width:601px) and (max-width: 1024px) {
+    .inner{
+        width: 90%;
+        padding: 130px 0 150px;
+    }
+    .inner strong{
+        font-size: 45px;
+        line-height: 60px;
+        width: 48%;
+    }
+    .inner .des{
+        width: 52%;
+    }
+    .des p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+}

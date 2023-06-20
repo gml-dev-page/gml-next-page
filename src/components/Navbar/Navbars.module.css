@@ -1,0 +1,14 @@
+.logo{
+    width: 90px;
+    height: auto;
+}
+
+.toggleBtn:focus{
+    box-shadow: none;
+}
+
+@media (max-width: 600px) {
+    .logo{
+        width: 80px;
+    }
+}

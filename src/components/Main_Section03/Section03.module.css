@@ -1,0 +1,126 @@
+.wrap{
+    position: relative;
+}
+
+.titleWrap{
+    text-align: center;
+    margin: 0px auto 100px;
+}
+
+.titleWrap p {
+    font-size: 22px;
+}
+
+.titleWrap h1{
+    font-family: 'GmarketSansBold';
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.countNumWrap{
+    
+    margin: 0 auto;
+}
+
+.rowStateWrap{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.flexBox{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    text-align: center;
+}
+.flexItem{
+    width: 30%;
+}
+
+.flexItem_num{
+    display: inline;
+    font-size: 45px;
+    font-family: 'GmarketSansBold';
+}
+
+.flexItem_name{
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.flexItem_des{
+    margin: 40px auto;
+    font-size: 21px;
+    font-family: 'AppleSDNeo-M';
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .wrap{
+        height: 630px;
+    }
+    
+    .titleWrap{
+        margin: 0px auto 60px;
+    }
+    .titleWrap p {
+        font-size: 15px;
+    }
+    
+    .titleWrap h1{
+        font-size: 28px;
+    }
+
+
+    .flexBox{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .flexItem{
+        width: 100%;
+    }
+
+    .flexItem_num{
+        font-size: 24px;
+    }
+    
+    .flexItem_name{
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    
+    .flexItem_des{
+        margin: 20px auto 50px;
+        font-size: 14px;
+    
+    }
+
+}
+
+@media (min-width:601px) and (max-width: 1024px) {
+    .titleWrap{
+        margin: 0px auto 55px;
+    }
+
+    .titleWrap h1{
+        font-size: 40px;
+    }
+
+    .flexItem_num{
+        font-size: 35px;
+    }
+
+    .flexItem_name{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .flexItem_des{
+        margin: 20px auto;
+        font-size: 18px;
+    }
+
+} 

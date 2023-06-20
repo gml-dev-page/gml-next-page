@@ -15,7 +15,7 @@ export default function Footer() {
             <span>부산광역시 해운대구 센텀중앙로 48, 에이스하이테크21 711호</span>
 
 
-            <div  className={styles.logo}><Image src={logoSrc} alt="logo" width={90}/></div>
+            <div  className={styles.logo}> <Image src={logoSrc} alt="logo" width={90}/></div>
         </div>
     </div>
     </>

@@ -11,7 +11,7 @@ export default function Section04() {
                 
                 <div className={styles.inner} data-aos="fade-up">
                     <div className={styles.titleWrap}>
-                        <h1>함께 이뤄내는 이커머스 맞춤 컨설팅<br/>
+                        <h1>함께 이뤄내는 이커머스<br/>
                             <strong>우리는 GML 입니다.</strong>
                         </h1>
                     </div>

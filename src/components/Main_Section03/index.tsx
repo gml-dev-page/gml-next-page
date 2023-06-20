@@ -12,7 +12,8 @@ export default function Section03({}: any) {
   const count2 = useScrollCountUp(58);
   const count3 = useScrollCountUp(4);
 
-
+  let date = new Date();
+  let year = date.getFullYear();
 
 
   return (
@@ -20,7 +21,7 @@ export default function Section03({}: any) {
       <div>
         <div className={`${styles.titleWrap} countTitle`}>
           <p>No.1 E-Commerce</p>
-          <h1>GML&apos;s 2022</h1>
+          <h1>GML&apos;s {year}</h1>
         </div>
 
         <div className={styles.rowStateWrap}>
@@ -45,9 +46,9 @@ export default function Section03({}: any) {
               </div>
 
               <div className={styles.flexItem}>
-            
+                <div className={styles.flexItem_num}>x</div>
                 <div className={styles.flexItem_num} {...count3}></div>
-                <div className={styles.flexItem_num}>배~</div>
+                <div className={styles.flexItem_num}>배</div>
                 <div className={styles.flexItem_name}>구매전환율 상승</div>
                 <div className={styles.flexItem_des}>
                   매출 상승에 대한 끝 없는 연구로<br/>전환율을 상승시키고 있습니다.

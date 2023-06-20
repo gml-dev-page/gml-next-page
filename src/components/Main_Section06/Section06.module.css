@@ -48,7 +48,7 @@
 
 .loopInnerWrap li span{
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 25px;
     font-weight: 500;
     letter-spacing: -0.5px;
@@ -59,7 +59,7 @@
     animation: 50s linear 0s infinite loopAnimation1;
 }
 #slide2{
-    left: 2090px;
+    left: 1830px;
     animation: 50s linear 0s infinite loopAnimation2;
 }
 

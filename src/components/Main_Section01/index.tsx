@@ -20,7 +20,7 @@ export default function Section01() {
             <div className={styles.titleWrap} >
                 <span>
                     <h1 className={styles.title}>
-                        효울적인 이커머스 컨설팅<br/> 지금 GML에서 가능합니다.
+                        효율적인 이커머스 컨설팅<br/> 지금 GML에서 가능합니다.
                     </h1>
                 </span>
 

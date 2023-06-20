@@ -14,7 +14,7 @@ export default function MainVideo() {
     <>
     <div className={styles.wrap}>
         <div className={styles.videoWrap}>
-            <video className={styles.video} src="/videos/video3.mov" autoPlay loop muted playsInline></video>
+            <video className={styles.video} src="/videos/video3.mp4" autoPlay loop muted playsInline></video>
             <div className={styles.titleWrap} data-aos="fade-up">
                 <h1>
                     우리는 결과물에 100%<br/>

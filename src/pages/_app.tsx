@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
         description: '종합 이커머스마케팅 회사 그래마케팅연구소 GML. 좋은 브랜드가 좋은 세상을 만든다고 확신 하는 사람들이 모인 곳.',
         images: [
           {
-            url: '/public/seo_img.jpg',
+            url: '/seo_img.jpg',
             width: 800,
             height: 600,
             alt: 'Og Image Alt',

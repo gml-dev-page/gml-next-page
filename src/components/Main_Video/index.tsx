@@ -15,7 +15,7 @@ export default function MainVideo() {
     <div className={styles.wrap}>
         <div className={styles.videoWrap}>
             <video className={styles.video} autoPlay loop muted playsInline>
-                <source src="/videos/video3.mp4" type='video/mp4'/>
+                <source src="/videos/video3-1.mp4" type='video/mp4'/>
             </video>
             <div className={styles.titleWrap} data-aos="fade-up">
                 <h1>
